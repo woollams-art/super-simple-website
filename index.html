@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#3498db">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Ghana Shippers Authority(Mid Sem Project)- Sidebar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <!-- Mobile Header -->
+  <header class="mobile-header">
+    <div class="mobile-header__logo">
+      <img src="pics/GSA LOGO.png" alt="Ghana Shippers Authority Logo">
+      <span>GSA</span>
+    </div>
+    <button class="mobile-header__menu-btn" id="mobile-menu-btn" aria-label="Open navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <div class="sidebar__logo">
+      <img src="pics/GSA LOGO.png" alt="Ghana Shippers Authority Logo">
+      <span>Ghana Shippers Authority</span>
+    </div>
+    <input type="checkbox" id="sidebar-toggle" class="sidebar__toggle">
+    <label for="sidebar-toggle" class="sidebar__hamburger" aria-label="Open navigation">
+      <i class="fas fa-bars"></i>
+    </label>
+    <nav class="sidebar__nav" aria-label="Sidebar Navigation">
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li class="dropdown">
+          <input type="checkbox" id="about-toggle" class="dropdown__toggle">
+          <label for="about-toggle"><i class="fas fa-info-circle"></i> About Us <span class="arrow">&#9662;</span></label>
+          <ul class="dropdown__menu">
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#ceo">CEO’s Message</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <input type="checkbox" id="services-toggle" class="dropdown__toggle">
+          <label for="services-toggle"><i class="fas fa-cogs"></i> Services <span class="arrow">&#9662;</span></label>
+          <ul class="dropdown__menu"></ul>
+            <li><a href="#business-development">Business Development</a></li>
+            <li><a href="#trade-information">Trade Information</a></li>
+            <li><a href="#shipper-support">Shipper Support</a></li>
+            <li><a href="#export-guidelines">Export Guidelines</a></li>
+            <li><a href="#port-operations">Port Operations</a></li>
+          </ul>
+        </li>
+        <li><a href="#vessels"><i class="fas fa-ship"></i> Port Operations Dashboard</a></li>
+        <li><a href="#news"><i class="fas fa-newspaper"></i> News</a></li>
+        <li><a href="#personal-details"><i class="fas fa-user-graduate"></i> Student Info</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        <li><a href="https://shippers.org.gh/" target="_blank">Official GSA Site</a></li>
+      </ul>
+      <div class="sidebar__search">
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">GHANA SHIPPERS' AUTHORITY</h1>
+        <p>Supporting Shippers Nationwide</p>
+        <a href="" class="btn btn--gold">Explore Services</a>
+      </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome section" id="mission">
+      <div class="welcome__card">
+        <img src="pics/GSA Building.png" alt="Ghana Shippers Authority Building" class="welcome__image">
+        <div class="welcome__content">
+          <h2 class="welcome__title-alt">Ghana Shippers Authority</h2>
+          <div class="welcome__divider-alt"></div>
+          <div class="welcome__subtitle-alt">Empowering Maritime Trade Excellence</div>
+          <div class="welcome__desc">
+            <p class="welcome__main-desc">
+              Established in 1985, Ghana Shippers Authority (GSA) is the premier maritime trade facilitation organization dedicated to promoting and protecting the interests of shippers in Ghana. We serve as the voice of shippers, advocating for fair trade practices and providing comprehensive support services to enhance Ghana's position in global maritime commerce.
+            </p>
+            <div class="welcome__key-points">
+              <div class="welcome__point">
+                <i class="fas fa-bullseye"></i>
+                <div>
+                  <h4>Our Mission</h4>
+                  <p>To promote and protect the interests of shippers in Ghana while facilitating trade and ensuring efficient maritime transport services.</p>
+                </div>
+              </div>
+              <div class="welcome__point">
+                <i class="fas fa-eye"></i>
+                <div>
+                  <h4>Our Vision</h4>
+                  <p>To be the leading maritime trade facilitation organization in West Africa, driving sustainable growth and competitiveness in Ghana's shipping industry.</p>
+                </div>
+              </div>
+              <div class="welcome__point">
+                <i class="fas fa-chart-bar"></i>
+                <div>
+                  <h4>Key Achievements</h4>
+                  <p>Successfully negotiated favorable freight rates, reduced port charges, and established strategic partnerships with major shipping lines and port operators.</p>
+                </div>
+              </div>
+            </div>
+            <p class="welcome__services-desc">
+              We provide innovative shipping solutions, seamless trade facilitation, and dedicated support for Ghana's maritime industry. Our comprehensive services include business development, trade information, export guidelines, and digital platforms like Mobiship. We are committed to driving growth, efficiency, and reliability for all shippers nationwide while maintaining the highest standards of service excellence.
+            </p>
+          </div>
+          <div class="welcome__cta-group">
+            <a href="#service" class="welcome__cta">Explore Services</a>
+            <a href="#contact" class="welcome__cta welcome__cta--secondary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CEO's Message Section -->
+    <section class="ceo section" id="ceo">
+      <div class="ceo__card">
+        <img src="pics/CEO.jpg" alt="CEO of Ghana Shippers Authority" class="ceo__img">
+        <div class="ceo__content">
+          <h2 class="ceo__title">CEO’s Message</h2>
+          <p class="ceo__message">
+            At Ghana Shippers Authority, our unwavering commitment is to empower and support every shipper across the nation. We believe in fostering innovation, efficiency, and reliability in maritime trade, ensuring that Ghana remains a leader in the global shipping industry. Our dedicated team works tirelessly to streamline processes, advocate for your interests, and provide solutions that drive growth and prosperity for all stakeholders.
+            <br><br>
+            As we navigate the evolving landscape of international trade, we remain focused on delivering exceptional value, upholding the highest standards of service, and building lasting partnerships. Thank you for trusting us as your partner in maritime excellence.
+          </p>
+          <div class="ceo__name">Edward Ransford Gyampo</div>
+          <div class="ceo__position">Chief Executive Officer</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <h2 class="section__title">Our Services</h2>
+      <div class="services__grid">
+        <div class="card service-card" id="business-development">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="card__title">Business Development & Commercial Services</h3>
+          <p>Comprehensive business development support, commercial services, and strategic guidance to enhance your maritime trade operations and market competitiveness.</p>
+          <a href="https://shippers.org.gh/index.php/portfolio/business-development-commercial-services/" class="btn btn--gold" target="_blank">Learn More</a>
+        </div>
+        <div class="card service-card" id="trade-information">
+          <div class="service-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3 class="card__title">Trade Information & Statistics</h3>
+          <p>Access to maritime trade statistics, negotiated charges, export guidelines, and comprehensive information on major ports and routes worldwide.</p>
+          <a href="#" class="btn btn--gold">Learn More</a>
+        </div>
+
+        <div class="card service-card" id="shipper-support">
+          <div class="service-icon">
+            <i class="fas fa-hands-helping"></i>
+          </div>
+          <h3 class="card__title">Shipper Support & Advocacy</h3>
+          <p>Dedicated support services, advocacy for shipper interests, and representation in maritime trade negotiations and policy development.</p>
+          <a href="#" class="btn btn--gold">Learn More</a>
+        </div>
+        <div class="card service-card" id="export-guidelines">
+          <div class="service-icon">
+            <i class="fas fa-file-contract"></i>
+          </div>
+          <h3 class="card__title">Export Guidelines & Compliance</h3>
+          <p>Comprehensive export guidelines, compliance assistance, and regulatory support for various commodities including charcoal exports.</p>
+          <a href="#" class="btn btn--gold">Learn More</a>
+        </div>
+        <div class="card service-card" id="port-operations">
+          <div class="service-icon">
+            <i class="fas fa-ship"></i>
+          </div>
+          <h3 class="card__title">Port Operations & Stevedoring</h3>
+          <p>Information on stevedoring companies, port operations, vessel schedules, and berth availability across Ghana's major ports.</p>
+          <a href="#" class="btn btn--gold">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news section" id="news">
+      <h2 class="section__title">Latest News</h2>
+      <div class="news__grid">
+        <div class="card news-card">
+          <img src="pics/cargo img.jpeg" alt="Cargo Operations" class="news-card__img">
+          <div class="news-card__content">
+            <span class="news-card__category">Operations</span>
+            <h3 class="card__title">Enhanced Cargo Operations</h3>
+            <time datetime="2025-07-03">July 3, 2025</time>
+            <p>Ghana Shippers Authority introduces new streamlined cargo handling procedures to improve efficiency and reduce processing times at major ports.</p>
+            <a href="#" class="news-card__read-more">Read More</a>
+          </div>
+        </div>
+        <div class="card news-card">
+          <img src="pics/p1.jpg" alt="Maritime Operations" class="news-card__img">
+          <div class="news-card__content">
+            <span class="news-card__category">Maritime</span>
+            <h3 class="card__title">Maritime Excellence Award</h3>
+            <time datetime="2025-07-03">July 3, 2025</time>
+            <p>Ghana Shippers Authority receives prestigious Maritime Excellence Award for outstanding contributions to trade facilitation and port efficiency.</p>
+            <a href="#" class="news-card__read-more">Read More</a>
+          </div>
+        </div>
+        <div class="card news-card">
+          <img src="pics/Shipping Img.jpg" alt="Shipping Operations" class="news-card__img">
+          <div class="news-card__content">
+            <span class="news-card__category">Shipping</span>
+            <h3 class="card__title">New Shipping Routes</h3>
+            <time datetime="2025-07-03">July 3, 2025</time>
+            <p>Introduction of new international shipping routes connecting Ghana to emerging markets, enhancing trade opportunities for local shippers.</p>
+            <a href="#" class="news-card__read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trade Facilitation & Support Section -->
+    <section class="trade-facilitation section" id="trade-facilitation">
+      <div class="trade-facilitation__container">
+        <div class="trade-facilitation__header">
+          <h2 class="trade-facilitation__title">Trade Facilitation & Support</h2>
+          <p class="trade-facilitation__subtitle">Empowering Ghana's Maritime Trade Excellence</p>
+        </div>
+        
+        <div class="trade-facilitation__content">
+          <div class="trade-facilitation__main">
+            <div class="trade-facilitation__hero">
+              <div class="trade-facilitation__image">
+                <img src="pics/Shipping Img.jpg" alt="Maritime Trade Operations" class="trade-facilitation__img">
+                <div class="trade-facilitation__overlay">
+                  <div class="trade-facilitation__stats">
+                    <div class="trade-facilitation__stat">
+                      <span class="trade-facilitation__stat-number">$15.2B</span>
+                      <span class="trade-facilitation__stat-label">Annual Trade Value</span>
+                    </div>
+                    <div class="trade-facilitation__stat">
+                      <span class="trade-facilitation__stat-number">2,500+</span>
+                      <span class="trade-facilitation__stat-label">Active Shippers</span>
+                    </div>
+                    <div class="trade-facilitation__stat">
+                      <span class="trade-facilitation__stat-number">98%</span>
+                      <span class="trade-facilitation__stat-label">Satisfaction Rate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="trade-facilitation__services">
+              <h3>Our Core Services</h3>
+              <div class="trade-facilitation__services-grid">
+                <div class="trade-facilitation__service-card">
+                  <div class="trade-facilitation__service-icon">
+                    <i class="fas fa-handshake"></i>
+                  </div>
+                  <h4>Trade Negotiations</h4>
+                  <p>Representing shippers in freight rate negotiations with major shipping lines to secure competitive rates and favorable terms.</p>
+                </div>
+                <div class="trade-facilitation__service-card">
+                  <div class="trade-facilitation__service-icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <h4>Market Intelligence</h4>
+                  <p>Providing comprehensive market analysis, trade statistics, and industry insights to support informed business decisions.</p>
+                </div>
+                <div class="trade-facilitation__service-card">
+                  <div class="trade-facilitation__service-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h4>Capacity Building</h4>
+                  <p>Training programs and workshops to enhance shippers' knowledge of international trade practices and regulations.</p>
+                </div>
+                <div class="trade-facilitation__service-card">
+                  <div class="trade-facilitation__service-icon">
+                    <i class="fas fa-balance-scale"></i>
+                  </div>
+                  <h4>Dispute Resolution</h4>
+                  <p>Mediation and arbitration services to resolve shipping disputes and ensure fair treatment for all parties.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile App Showcase -->
+            <div class="trade-facilitation__mobile-showcase">
+              <div class="trade-facilitation__mobile-content">
+                <div class="trade-facilitation__mobile-info">
+                  <h3>GSA Mobile App</h3>
+                  <p class="trade-facilitation__mobile-subtitle">Access Trade Facilitation Services On-The-Go</p>
+                  <div class="trade-facilitation__mobile-features">
+                    <div class="trade-facilitation__mobile-feature">
+                      <i class="fas fa-ship"></i>
+                      <span>Real-time Vessel Tracking</span>
+                    </div>
+                    <div class="trade-facilitation__mobile-feature">
+                      <i class="fas fa-chart-bar"></i>
+                      <span>Trade Analytics Dashboard</span>
+                    </div>
+                    <div class="trade-facilitation__mobile-feature">
+                      <i class="fas fa-file-contract"></i>
+                      <span>Export Guidelines</span>
+                    </div>
+                    <div class="trade-facilitation__mobile-feature">
+                      <i class="fas fa-bell"></i>
+                      <span>Push Notifications</span>
+                    </div>
+                  </div>
+                  <div class="trade-facilitation__mobile-download">
+                    <a href="#" class="trade-facilitation__download-btn">
+                      <i class="fab fa-google-play"></i>
+                      <div>
+                        <span>Get it on</span>
+                        <strong>Google Play</strong>
+                      </div>
+                    </a>
+                    <a href="#" class="trade-facilitation__download-btn">
+                      <i class="fab fa-apple"></i>
+                      <div>
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="trade-facilitation__mobile-mockup">
+                  <div class="trade-facilitation__phone-frame">
+                    <div class="trade-facilitation__phone-notch"></div>
+                    <div class="trade-facilitation__phone-screen">
+                      <div class="trade-facilitation__app-header">
+                        <div class="trade-facilitation__app-status">
+                          <span class="trade-facilitation__time">9:41</span>
+                          <div class="trade-facilitation__status-icons">
+                            <i class="fas fa-signal"></i>
+                            <i class="fas fa-wifi"></i>
+                            <i class="fas fa-battery-three-quarters"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="trade-facilitation__app-content">
+                        <div class="trade-facilitation__app-dashboard">
+                          <div class="trade-facilitation__app-logo">
+                            <i class="fas fa-ship"></i>
+                            <span>GSA Trade</span>
+                          </div>
+                          <div class="trade-facilitation__app-stats">
+                            <div class="trade-facilitation__app-stat">
+                              <span class="trade-facilitation__app-stat-value">$2.4M</span>
+                              <span class="trade-facilitation__app-stat-label">Today's Trade</span>
+                            </div>
+                            <div class="trade-facilitation__app-stat">
+                              <span class="trade-facilitation__app-stat-value">12</span>
+                              <span class="trade-facilitation__app-stat-label">Active Vessels</span>
+                            </div>
+                          </div>
+                          <div class="trade-facilitation__app-menu">
+                            <div class="trade-facilitation__app-menu-item">
+                              <i class="fas fa-ship"></i>
+                              <span>Track Vessels</span>
+                            </div>
+                            <div class="trade-facilitation__app-menu-item">
+                              <i class="fas fa-chart-line"></i>
+                              <span>Trade Data</span>
+                            </div>
+                            <div class="trade-facilitation__app-menu-item">
+                              <i class="fas fa-file-contract"></i>
+                              <span>Guidelines</span>
+                            </div>
+                            <div class="trade-facilitation__app-menu-item">
+                              <i class="fas fa-headset"></i>
+                              <span>Support</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Conference Facilities Section -->
+    <section class="conference section" id="conference">
+      <div class="conference__container">
+        <div class="conference__header">
+          <h2 class="conference__title">Host Your Events</h2>
+          <p class="conference__subtitle">State-of-the-Art Conference Facilities in the Heart of Accra</p>
+        </div>
+        
+        <div class="conference__content">
+          <div class="conference__main">
+            <div class="conference__hero">
+              <div class="conference__image">
+                <img src="pics/venue.jpg" alt="GSA Conference Facilities" class="conference__img">
+                <div class="conference__overlay">
+                  <div class="conference__highlights">
+                    <div class="conference__highlight">
+                      <i class="fas fa-users"></i>
+                      <span>Up to 500 Guests</span>
+                    </div>
+                    <div class="conference__highlight">
+                      <i class="fas fa-wifi"></i>
+                      <span>High-Speed WiFi</span>
+                    </div>
+                    <div class="conference__highlight">
+                      <i class="fas fa-parking"></i>
+                      <span>Free Parking</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="conference__facilities">
+              <h3>Our Facilities</h3>
+              <div class="conference__facilities-grid">
+                <div class="conference__facility-card">
+                  <div class="conference__facility-icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                  </div>
+                  <h4>Conference Hall</h4>
+                  <p>Spacious main hall accommodating up to 300 attendees with professional audio-visual equipment, podium, and stage lighting.</p>
+                </div>
+                <div class="conference__facility-card">
+                  <div class="conference__facility-icon">
+                    <i class="fas fa-handshake"></i>
+                  </div>
+                  <h4>Meeting Rooms</h4>
+                  <p>Multiple breakout rooms for smaller meetings, workshops, and training sessions with flexible seating arrangements.</p>
+                </div>
+                <div class="conference__facility-card">
+                  <div class="conference__facility-icon">
+                    <i class="fas fa-utensils"></i>
+                  </div>
+                  <h4>Catering Services</h4>
+                  <p>Professional catering options including coffee breaks, lunch services, and custom menu planning for your event.</p>
+                </div>
+                <div class="conference__facility-card">
+                  <div class="conference__facility-icon">
+                    <i class="fas fa-cog"></i>
+                  </div>
+                  <h4>Technical Support</h4>
+                  <p>On-site technical support for presentations, video conferencing, and multimedia requirements throughout your event.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="conference__sidebar">
+            <div class="conference__info-card">
+              <h3>Perfect for</h3>
+              <div class="conference__event-types">
+                <div class="conference__event-type">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Corporate Events</h4>
+                    <p>Annual meetings, product launches, and business conferences</p>
+                  </div>
+                </div>
+                <div class="conference__event-type">
+                  <i class="fas fa-ship"></i>
+                  <div>
+                    <h4>Maritime Seminars</h4>
+                    <p>Industry workshops, training sessions, and trade discussions</p>
+                  </div>
+                </div>
+                <div class="conference__event-type">
+                  <i class="fas fa-globe"></i>
+                  <div>
+                    <h4>International Conferences</h4>
+                    <p>Global trade forums, diplomatic meetings, and international summits</p>
+                  </div>
+                </div>
+                <div class="conference__event-type">
+                  <i class="fas fa-calendar-alt"></i>
+                  <div>
+                    <h4>Training Programs</h4>
+                    <p>Professional development, certification courses, and skill workshops</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="conference__booking-card">
+              <h3>Book Your Event</h3>
+              <p>Reserve our world-class facilities for your next successful event</p>
+              <div class="conference__contact-info">
+                <div class="conference__contact-item">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                    <span>Phone</span>
+                    <strong>+233 595 658 287</strong>
+                  </div>
+                </div>
+                <div class="conference__contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <span>Email</span>
+                    <strong>events@gsa.org.gh</strong>
+                  </div>
+                </div>
+                <div class="conference__contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <span>Location</span>
+                    <strong>No. 12 Cruickshank Street, Accra</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="conference__booking-buttons">
+                <a href="#contact" class="btn btn--primary">Book Now</a>
+                <a href="#" class="btn btn--secondary">View Brochure</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vessels at Berth Section -->
+    <section class="vessels section" id="vessels">
+      <div class="vessels__container">
+        <div class="vessels__header">
+          <h2 class="vessels__title">Port Operations Dashboard</h2>
+          <p class="vessels__subtitle">Live Maritime Traffic & Berth Management</p>
+        </div>
+        
+        <div class="vessels__overview">
+          <div class="vessels__overview-card">
+            <div class="vessels__overview-icon">
+              <i class="fas fa-ship"></i>
+            </div>
+            <div class="vessels__overview-content">
+              <span class="vessels__overview-number">12</span>
+              <span class="vessels__overview-label">Active Vessels</span>
+            </div>
+          </div>
+          <div class="vessels__overview-card">
+            <div class="vessels__overview-icon">
+              <i class="fas fa-anchor"></i>
+            </div>
+            <div class="vessels__overview-content">
+              <span class="vessels__overview-number">8</span>
+              <span class="vessels__overview-label">Berths Occupied</span>
+            </div>
+          </div>
+          <div class="vessels__overview-card">
+            <div class="vessels__overview-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="vessels__overview-content">
+              <span class="vessels__overview-number">4</span>
+              <span class="vessels__overview-label">Expected Today</span>
+            </div>
+          </div>
+          <div class="vessels__overview-card">
+            <div class="vessels__overview-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="vessels__overview-content">
+              <span class="vessels__overview-number">98%</span>
+              <span class="vessels__overview-label">Efficiency Rate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="vessels__filters-section">
+          <div class="vessels__filters">
+            <button class="vessels__filter-btn active" data-filter="all">
+              <i class="fas fa-globe"></i>
+              <span>All Vessels</span>
+            </button>
+            <button class="vessels__filter-btn" data-filter="container">
+              <i class="fas fa-box"></i>
+              <span>Container</span>
+            </button>
+            <button class="vessels__filter-btn" data-filter="bulk">
+              <i class="fas fa-cubes"></i>
+              <span>Bulk Cargo</span>
+            </button>
+            <button class="vessels__filter-btn" data-filter="tanker">
+              <i class="fas fa-oil-can"></i>
+              <span>Tanker</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="vessels__grid">
+          <div class="vessel-card" data-type="container">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇬🇭</div>
+              <div class="vessel-card__type container">
+                <i class="fas fa-box"></i>
+                <span>Container</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MV MSC Ghana</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 1</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 07:30 AM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Today, 18:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status loading">
+                <i class="fas fa-spinner"></i>
+                <span>Loading</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 75%"></div>
+                </div>
+                <span class="vessel-card__progress-text">75% Complete</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vessel-card" data-type="bulk">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇳🇱</div>
+              <div class="vessel-card__type bulk">
+                <i class="fas fa-cubes"></i>
+                <span>Bulk Cargo</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MV Bulk Carrier</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 2</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 09:15 AM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Tomorrow, 14:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status unloading">
+                <i class="fas fa-download"></i>
+                <span>Unloading</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 45%"></div>
+                </div>
+                <span class="vessel-card__progress-text">45% Complete</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vessel-card" data-type="tanker">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇬🇧</div>
+              <div class="vessel-card__type tanker">
+                <i class="fas fa-oil-can"></i>
+                <span>Tanker</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MT Oil Tanker</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 3</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 11:45 AM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Today, 16:30</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status completed">
+                <i class="fas fa-check-circle"></i>
+                <span>Completed</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 100%"></div>
+                </div>
+                <span class="vessel-card__progress-text">100% Complete</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vessel-card" data-type="container">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇩🇰</div>
+              <div class="vessel-card__type container">
+                <i class="fas fa-box"></i>
+                <span>Container</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MV Maersk Accra</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 4</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 13:20 PM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Tomorrow, 09:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status waiting">
+                <i class="fas fa-hourglass-half"></i>
+                <span>Waiting</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 0%"></div>
+                </div>
+                <span class="vessel-card__progress-text">Pending</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vessel-card" data-type="bulk">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇺🇸</div>
+              <div class="vessel-card__type bulk">
+                <i class="fas fa-cubes"></i>
+                <span>Bulk Cargo</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MV Grain Carrier</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 5</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 15:00 PM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Tomorrow, 12:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status loading">
+                <i class="fas fa-spinner"></i>
+                <span>Loading</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 30%"></div>
+                </div>
+                <span class="vessel-card__progress-text">30% Complete</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="vessel-card" data-type="container">
+            <div class="vessel-card__header">
+              <div class="vessel-card__flag">🇫🇷</div>
+              <div class="vessel-card__type container">
+                <i class="fas fa-box"></i>
+                <span>Container</span>
+              </div>
+            </div>
+            <div class="vessel-card__body">
+              <h3 class="vessel-card__name">MV CMA CGM</h3>
+              <div class="vessel-card__details">
+                <div class="vessel-card__detail">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Berth 6</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-clock"></i>
+                  <span>Arrived: 16:30 PM</span>
+                </div>
+                <div class="vessel-card__detail">
+                  <i class="fas fa-calendar"></i>
+                  <span>Departure: Today, 22:00</span>
+                </div>
+              </div>
+            </div>
+            <div class="vessel-card__footer">
+              <div class="vessel-card__status unloading">
+                <i class="fas fa-download"></i>
+                <span>Unloading</span>
+              </div>
+              <div class="vessel-card__progress">
+                <div class="vessel-card__progress-bar">
+                  <div class="vessel-card__progress-fill" style="width: 60%"></div>
+                </div>
+                <span class="vessel-card__progress-text">60% Complete</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="vessels__info-section">
+          <div class="vessels__info-grid">
+            <div class="vessels__info-card">
+              <h3><i class="fas fa-chart-bar"></i> Port Statistics</h3>
+              <div class="vessels__info-content">
+                <div class="vessels__info-item">
+                  <span class="vessels__info-label">Container Terminal</span>
+                  <span class="vessels__info-value">2.5M TEU annually</span>
+                </div>
+                <div class="vessels__info-item">
+                  <span class="vessels__info-label">Bulk Terminal</span>
+                  <span class="vessels__info-value">15M tons yearly</span>
+                </div>
+                <div class="vessels__info-item">
+                  <span class="vessels__info-label">Oil Terminal</span>
+                  <span class="vessels__info-value">500K cubic meters</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="vessels__info-card">
+              <h3><i class="fas fa-calendar-alt"></i> Today's Schedule</h3>
+              <div class="vessels__schedule-timeline">
+                <div class="vessels__timeline-item">
+                  <div class="vessels__timeline-time">08:00</div>
+                  <div class="vessels__timeline-content">
+                    <span class="vessels__timeline-title">MV MSC Ghana Departure</span>
+                    <span class="vessels__timeline-berth">Berth 1</span>
+                  </div>
+                </div>
+                <div class="vessels__timeline-item">
+                  <div class="vessels__timeline-time">10:30</div>
+                  <div class="vessels__timeline-content">
+                    <span class="vessels__timeline-title">New Container Vessel Arrival</span>
+                    <span class="vessels__timeline-berth">Berth 3</span>
+                  </div>
+                </div>
+                <div class="vessels__timeline-item">
+                  <div class="vessels__timeline-time">14:00</div>
+                  <div class="vessels__timeline-content">
+                    <span class="vessels__timeline-title">Bulk Carrier Loading Complete</span>
+                    <span class="vessels__timeline-berth">Berth 5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="contact__container">
+        <div class="contact__header">
+          <h2 class="contact__title">Get In Touch</h2>
+          <p class="contact__subtitle">Connect with Ghana Shippers Authority for Expert Maritime Support</p>
+        </div>
+        
+        <div class="contact__content">
+          <div class="contact__main">
+            <div class="contact__form-section">
+              <h3><i class="fas fa-envelope"></i> Send Us a Message</h3>
+              <form class="contact__form">
+                <div class="contact__form-row">
+                  <div class="contact__form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="contact__form-row">
+                  <div class="contact__form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="contact__form-group">
+                    <label for="company">Company/Organization</label>
+                    <input type="text" id="company" name="company" placeholder="Enter your company name">
+                    <i class="fas fa-building"></i>
+                  </div>
+                </div>
+                <div class="contact__form-group">
+                  <label for="subject">Subject *</label>
+                  <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="business">Business Development</option>
+                    <option value="trade">Trade Information</option>
+                    <option value="support">Shipper Support</option>
+                    <option value="export">Export Guidelines</option>
+                    <option value="port">Port Operations</option>
+                    <option value="conference">Conference Facilities</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <i class="fas fa-tag"></i>
+                </div>
+                <div class="contact__form-group">
+                  <label for="message">Message *</label>
+                  <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                  <i class="fas fa-comment"></i>
+                </div>
+                <div class="contact__form-actions">
+                  <button type="submit" class="contact__submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Send Message</span>
+                  </button>
+                  <button type="reset" class="contact__reset-btn">
+                    <i class="fas fa-undo"></i>
+                    <span>Reset Form</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <div class="contact__sidebar">
+            <div class="contact__info-timeline">
+              <div class="contact__timeline-item contact__timeline-item--image">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-image"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Our Office</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-image">
+                      <img src="pics/GSA Building.png" alt="Ghana Shippers Authority Building" class="contact__timeline-img">
+                      <div class="contact__timeline-image-overlay">
+                        <span>Welcome to GSA</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-link"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Quick Links</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-links">
+                      <a href="#" class="contact__timeline-link">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Privacy Notice</span>
+                      </a>
+                      <a href="#" class="contact__timeline-link">
+                        <i class="fas fa-sitemap"></i>
+                        <span>Sitemap</span>
+                      </a>
+                      <a href="#" class="contact__timeline-link">
+                        <i class="fas fa-file-contract"></i>
+                        <span>Terms of Service</span>
+                      </a>
+                      <a href="#" class="contact__timeline-link">
+                        <i class="fas fa-question-circle"></i>
+                        <span>Help Center</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-share-alt"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Follow Us</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-social">
+                      <a href="#" class="contact__timeline-social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                      </a>
+                      <a href="#" class="contact__timeline-social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                      </a>
+                      <a href="#" class="contact__timeline-social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                      </a>
+                      <a href="#" class="contact__timeline-social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-envelope-open"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Newsletter</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-newsletter">
+                      <p class="contact__timeline-newsletter-desc">Stay updated with our latest news and maritime insights</p>
+                      <form class="contact__timeline-newsletter-form">
+                        <div class="contact__timeline-newsletter-input">
+                          <input type="email" placeholder="Enter your email address" required>
+                          <button type="submit" class="contact__timeline-newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                          </button>
+                        </div>
+                      </form>
+                      <div class="contact__timeline-newsletter-benefits">
+                        <div class="contact__timeline-newsletter-benefit">
+                          <i class="fas fa-check"></i>
+                          <span>Industry updates</span>
+                        </div>
+                        <div class="contact__timeline-newsletter-benefit">
+                          <i class="fas fa-check"></i>
+                          <span>Port operations news</span>
+                        </div>
+                        <div class="contact__timeline-newsletter-benefit">
+                          <i class="fas fa-check"></i>
+                          <span>Trade insights</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Visit Our Office</h3>
+                  <div class="contact__timeline-details">
+                    <h4>Ghana Shippers Authority</h4>
+                    <div class="contact__timeline-info">
+                      <p><i class="fas fa-building"></i> No. 12 Cruickshank Street</p>
+                      <p><i class="fas fa-city"></i> Accra, Ghana</p>
+                      <p><i class="fas fa-info-circle"></i> Main Administrative Building</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Contact Information</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-contact">
+                      <div class="contact__timeline-contact-item">
+                        <span class="contact__timeline-label">Main Office</span>
+                        <a href="tel:+233302666915" class="contact__timeline-value">+233 302 666 915</a>
+                      </div>
+                      <div class="contact__timeline-contact-item">
+                        <span class="contact__timeline-label">Mobile</span>
+                        <a href="tel:+233595658287" class="contact__timeline-value">+233 595 658 287</a>
+                      </div>
+                      <div class="contact__timeline-contact-item">
+                        <span class="contact__timeline-label">Email</span>
+                        <a href="mailto:info@shippers.org.gh" class="contact__timeline-value">info@shippers.org.gh</a>
+                      </div>
+                      <div class="contact__timeline-contact-item">
+                        <span class="contact__timeline-label">Fax</span>
+                        <span class="contact__timeline-value">+233 302 666 916</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Office Hours</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-hours">
+                      <div class="contact__timeline-hour-item">
+                        <span class="contact__timeline-day">Monday - Friday</span>
+                        <span class="contact__timeline-time">8:00 AM - 5:00 PM</span>
+                      </div>
+                      <div class="contact__timeline-hour-item">
+                        <span class="contact__timeline-day">Saturday</span>
+                        <span class="contact__timeline-time">9:00 AM - 1:00 PM</span>
+                      </div>
+                      <div class="contact__timeline-hour-item">
+                        <span class="contact__timeline-day">Sunday</span>
+                        <span class="contact__timeline-time contact__timeline-closed">Closed</span>
+                      </div>
+                    </div>
+                    <div class="contact__timeline-emergency">
+                      <i class="fas fa-exclamation-triangle"></i>
+                      <span>24/7 Emergency Support Available</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Quick Support</h3>
+                  <div class="contact__timeline-details">
+                    <div class="contact__timeline-support">
+                      <a href="#" class="contact__timeline-support-option">
+                        <i class="fas fa-headset"></i>
+                        <div>
+                          <span class="contact__timeline-support-title">Live Chat</span>
+                          <span class="contact__timeline-support-desc">Chat with our support team</span>
+                        </div>
+                      </a>
+                      <a href="#" class="contact__timeline-support-option">
+                        <i class="fas fa-file-alt"></i>
+                        <div>
+                          <span class="contact__timeline-support-title">Download Forms</span>
+                          <span class="contact__timeline-support-desc">Get official documents</span>
+                        </div>
+                      </a>
+                      <a href="#" class="contact__timeline-support-option">
+                        <i class="fas fa-question-circle"></i>
+                        <div>
+                          <span class="contact__timeline-support-title">FAQ</span>
+                          <span class="contact__timeline-support-desc">Find quick answers</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact__timeline-item">
+                <div class="contact__timeline-icon">
+                  <i class="fas fa-map"></i>
+                </div>
+                <div class="contact__timeline-content">
+                  <h3>Find Us on the Map</h3>
+                  <div class="contact__timeline-details">
+                    <p class="contact__timeline-map-desc">Located in the heart of Accra's business district</p>
+                    <div class="contact__timeline-map-placeholder">
+                      <i class="fas fa-map-marked-alt"></i>
+                      <span>Interactive Map Coming Soon</span>
+                      <p>Our office is located at No. 12 Cruickshank Street, Accra</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact__footer">
+          <div class="contact__footer-content">
+            <div class="contact__footer-logo">
+              <img src="logo logo.png" >
+              <span >Ghana Shippers Authority</span>
+            </div>
+            <div class="contact__footer-copyright">
+              <p>&copy; 2025 Ghana Shippers Authority. All rights reserved.</p>
+              <p>Empowering Ghana's Maritime Trade Excellence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal Details Section -->
+    <section class="personal-details section" id="personal-details">
+      <div class="personal-details__container">
+        <div class="personal-details__header">
+          <h2 class="personal-details__title">Student Information</h2>
+          <p class="personal-details__subtitle">Personal Details and Academic Information</p>
+        </div>
+        
+        <div class="personal-details__content">
+          <div class="personal-details__card">
+            <div class="personal-details__profile">
+              <div class="personal-details__avatar">
+                <img src="pics/IMG_4239-1@1615230338.jpg" alt="Lydia Akworkor Woollams" class="personal-details__photo">
+              </div>
+              <div class="personal-details__info">
+                <h3 class="personal-details__name">Lydia Akworkor Woollams</h3>
+                <p class="personal-details__program">Computer Science Student</p>
+                <div class="personal-details__academic">
+                  <div class="personal-details__academic-item">
+                    <i class="fas fa-id-card"></i>
+                    <div>
+                      <span class="personal-details__label">Index Number</span>
+                      <span class="personal-details__value">BC/ITD/24/101</span>
+                    </div>
+                  </div>
+                  <div class="personal-details__academic-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                      <span class="personal-details__label">Institution</span>
+                      <span class="personal-details__value">Takoradi Technical University</span>
+                    </div>
+                  </div>
+                  <div class="personal-details__academic-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                      <span class="personal-details__label">Level</span>
+                      <span class="personal-details__value">Level 100</span>
+                    </div>
+                  </div>
+                  <div class="personal-details__academic-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div>
+                      <span class="personal-details__label">Academic Year</span>
+                      <span class="personal-details__value">2024/2025</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="personal-details__contact">
+              <h4><i class="fas fa-address-book"></i> Contact Information</h4>
+              <div class="personal-details__contact-grid">
+                <div class="personal-details__contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <span class="personal-details__label">Email</span>
+                    <a href="mailto:woollamslydiaakworkor@gmail.com" class="personal-details__value">woollamslydiaakworkor@gmail.com</a>
+                  </div>
+                </div>
+                <div class="personal-details__contact-item">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                    <span class="personal-details__label">Phone</span>
+                    <a href="tel:+233257217914" class="personal-details__value">+233 257 217 914</a>
+                  </div>
+                </div>
+                <div class="personal-details__contact-item">
+                  <i class="fab fa-whatsapp"></i>
+                  <div>
+                    <span class="personal-details__label">WhatsApp</span>
+                    <a href="https://wa.me/233257217914" class="personal-details__value personal-details__whatsapp-link">+233 257 217 914</a>
+                  </div>
+                </div>
+                <div class="personal-details__contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <span class="personal-details__label">Location</span>
+                    <span class="personal-details__value">Takoradi, Ghana</span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="personal-details__project">
+              <h4><i class="fas fa-project-diagram"></i> Project Information</h4>
+              <div class="personal-details__project-details">
+                <div class="personal-details__project-item">
+                  <span class="personal-details__label">Project Title</span>
+                  <span class="personal-details__value">Ghana Shippers Authority Website </span>
+                </div>
+                <div class="personal-details__project-item">
+                  <span class="personal-details__label">Course</span>
+                  <span class="personal-details__value">Web Development</span>
+                </div>
+                <div class="personal-details__project-item">
+                  <span class="personal-details__label">Supervisor</span>
+                  <span class="personal-details__value">Mr.Anthony K.Emil Jnr</span>
+                </div>
+                <div class="personal-details__project-item">
+                  <span class="personal-details__label">Submission Date</span>
+                  <span class="personal-details__value">15th July 2025</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="personal-details__skills">
+              <h4><i class="fas fa-code"></i> Technical Skills</h4>
+              <div class="personal-details__skills-grid">
+                <div class="personal-details__skill">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="personal-details__skill">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="personal-details__skill">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="personal-details__skill">
+                  <i class="fas fa-database"></i>
+                  <span>Database</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript for smooth scrolling and navigation -->
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Mobile sidebar toggle
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const sidebar = document.querySelector('.sidebar');
+    const mobileHeader = document.querySelector('.mobile-header');
+    
+    // Handle mobile menu button click
+    if (mobileMenuBtn) {
+      mobileMenuBtn.addEventListener('click', function() {
+        if (sidebarToggle) {
+          sidebarToggle.checked = !sidebarToggle.checked;
+          if (sidebarToggle.checked) {
+            sidebar.style.transform = 'translateX(0)';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+          } else {
+            sidebar.style.transform = 'translateX(-100%)';
+            document.body.style.overflow = ''; // Restore scrolling
+          }
+        }
+      });
+    }
+    
+    // Handle sidebar toggle checkbox
+    if (sidebarToggle) {
+      sidebarToggle.addEventListener('change', function() {
+        if (this.checked) {
+          sidebar.style.transform = 'translateX(0)';
+          document.body.style.overflow = 'hidden';
+        } else {
+          sidebar.style.transform = 'translateX(-100%)';
+          document.body.style.overflow = '';
+        }
+      });
+    }
+
+    // Close mobile sidebar when clicking on a link
+    document.querySelectorAll('.sidebar__nav a').forEach(link => {
+      link.addEventListener('click', function() {
+        if (window.innerWidth <= 900) {
+          if (sidebarToggle) {
+            sidebarToggle.checked = false;
+            sidebar.style.transform = 'translateX(-100%)';
+            document.body.style.overflow = '';
+          }
+        }
+      });
+    });
+
+    // Close sidebar when clicking outside on mobile
+    document.addEventListener('click', function(e) {
+      if (window.innerWidth <= 900 && sidebarToggle && sidebarToggle.checked) {
+        if (!sidebar.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+          sidebarToggle.checked = false;
+          sidebar.style.transform = 'translateX(-100%)';
+          document.body.style.overflow = '';
+        }
+      }
+    });
+
+    // Handle window resize
+    window.addEventListener('resize', function() {
+      if (window.innerWidth > 900) {
+        if (sidebarToggle) {
+          sidebarToggle.checked = false;
+        }
+        sidebar.style.transform = '';
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Highlight active navigation item
+    window.addEventListener('scroll', function() {
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.sidebar__nav a[href^="#"]');
+      
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    // Add touch support for mobile devices
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    });
+
+    document.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    });
+
+    function handleSwipe() {
+      const swipeThreshold = 50;
+      const swipeDistance = touchEndX - touchStartX;
+      
+      if (window.innerWidth <= 900) {
+        // Swipe right to open sidebar
+        if (swipeDistance > swipeThreshold && !sidebarToggle.checked) {
+          sidebarToggle.checked = true;
+          sidebar.style.transform = 'translateX(0)';
+          document.body.style.overflow = 'hidden';
+        }
+        // Swipe left to close sidebar
+        else if (swipeDistance < -swipeThreshold && sidebarToggle.checked) {
+          sidebarToggle.checked = false;
+          sidebar.style.transform = 'translateX(-100%)';
+          document.body.style.overflow = '';
+        }
+      }
+    }
+
+    // Initialize the page
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('Personal Details section loaded successfully');
+      
+      // Ensure Personal Details section is visible
+      const personalDetailsSection = document.getElementById('personal-details');
+      if (personalDetailsSection) {
+        personalDetailsSection.style.display = 'block';
+        console.log('Personal Details section found and displayed');
+      } else {
+        console.log('Personal Details section not found');
+      }
+    });
+  </script>
+
+</body>
+</html>
